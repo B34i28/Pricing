@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Icon1() {
+export default function icon1() {
   return (
     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M23 11L26.09 17.262L33 18.266L28 23.14L29.18 30.022L23 26.772L16.82 30.022L18 23.14L13 18.266L19.91 17.262L23 11Z" fill="#652CD3"/>

@@ -1,7 +1,7 @@
 import { Heading, Text,Box,Icon,Flex,Button,HStack} from '@chakra-ui/react'
 import React from 'react'
-import Icon1 from './Icon1'
-import Icon2 from './Icon2'
+import icon1 from './icon1'
+import icon2 from './icon2'
 import icon3 from './icon3'
 
 export default function Features() {
@@ -9,11 +9,11 @@ export default function Features() {
     <Box maxW={"900px"} m="auto" mt="25px" px="45px">
       <Flex direction={{base:"column",md:"column",lg:"row"}}>
         <HStack mb="15px">
-          <Icon as={Icon1} />
+          <Icon as={icon1} />
           <Text>30 days money back Guarantee</Text>
         </HStack>
         <HStack mb="15px">
-          <Icon as={Icon2} />
+          <Icon as={icon2} />
           <Text>No setup fees 100% hassle-free</Text>
         </HStack>
         <HStack>
